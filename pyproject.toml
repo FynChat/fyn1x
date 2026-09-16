@@ -1,0 +1,17 @@
+[project]
+name = "fyn1x"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Григорий", email = "xoppee.ru@yandex.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+fyn1x = "fyn1x:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
